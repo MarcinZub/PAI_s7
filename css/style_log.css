@@ -1,0 +1,107 @@
+#container{
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+#formlogin{
+	margin: 0 auto;
+	letter-spacing: 3px;
+}
+
+#menuWrap{
+	width: 100%;
+	font-family: Verdana;
+}
+
+#menu{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+#menu > li{
+	float: left;
+	width: 20%;
+}
+
+#menu > li > a{
+	display: block;
+	padding: 15px;
+	height: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+#menu > li > a:hover{
+	color: #ffffff;
+	background-color: #8FACC9;
+}
+
+#menu:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.formularz{
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.formularz:after{
+	clear: both;
+}
+
+.form_rejestracja{
+	float: left;
+	margin: 2px;
+}
+
+.form_rejestracja:after{
+	clear: both;
+}
+
+.form_towar{
+	margin-left: 400px;
+	padding: 5px;
+}
+
+.form_dodajMagazyn{
+	float: left;
+	margin: 5px;
+}
+
+.form_dodajMagazyn:after{
+	clear: both;
+}
+
+#kosz{
+
+}
+
+.form_edycja_uzyt{
+	padding: 5px;
+}
+
+.form_edit_mag{
+	float: left;
+	padding: 5px;
+}
+
+.form_edit_mag:after{
+	clear: both;
+}
+
+.form_edit_towar{
+	margin-left: 400px;
+	padding: 5px;
+}
